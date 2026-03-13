@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Model artifacts (optional: remove if you want to track them)
+# best_model.h5
+# best_model_finetuned.h5
+# exports/
+
+# Logs and OS
+logs/
+.DS_Store
+*.log
